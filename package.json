@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-demo",
+  "version": "1.0.0",
+  "description": "My groundbreaking Nuxt.js project",
+  "author": "wangxueliang",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.1.10",
+    "babel-plugin-import": "^1.13.0",
+    "less-loader": "^4.1.0",
+    "less": "^2.7.3",
+    "nuxt-edge": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0"
+  }
+}
