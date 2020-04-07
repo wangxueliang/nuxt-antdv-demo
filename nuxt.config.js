@@ -23,6 +23,7 @@ export default {
   ** Global CSS
   */
   css: [
+    'ant-design-vue/dist/antd.less'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -46,14 +47,14 @@ export default {
   */
   build: {
     babel: {
+      babelrc: false,
+      cacheDirectory: undefined,
+      presets: ['@nuxt/babel-preset-app-edge'],
       plugins: [
         [
           'import',
           {
             libraryName: 'ant-design-vue',
-            "style": (name) => {
-              return `${name}/style/index.js`;
-            }
           },
           'ant-design-vue'
         ]

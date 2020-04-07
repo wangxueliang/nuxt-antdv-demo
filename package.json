@@ -16,6 +16,8 @@
     "nuxt-edge": "latest"
   },
   "devDependencies": {
+    "less-loader": "^4.1.0",
+    "less": "^2.7.3",
     "@nuxt/typescript-build": "^0.6.0"
   }
 }
